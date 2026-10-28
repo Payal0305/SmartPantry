@@ -49,6 +49,7 @@ public class PantryListFragment extends Fragment {
         super.onResume();
         loadPantry();
     }
+    
 
     private void loadPantry() {
         List<PantryItem> items = db.getAllPantryItems();
